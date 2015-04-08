@@ -26,16 +26,16 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Devil's Earth
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  bio: "Interesting on Music"
+  email: info@devilsearth.com
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: devilsearth
+  facebook: 
   google:
     plus: #username
-    analytics: 
+    analytics: UA-60748488-3
     verify: 
     ad-client: 
     ad-slot: 
@@ -51,7 +51,7 @@ owner:
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
+  youtube: UCfRYdl1eAkz5cPGRrssw8vQ
   soundcloud: #username
   weibo: #username
   flickr: #username
