@@ -28,6 +28,7 @@ kramdown:
 owner:
   name: Devil's Earth
   avatar: logo_small.png
+  about: "/"
   bio: "Interesting on Music"
   email: info@devilsearth.com
   disqus-shortname: 

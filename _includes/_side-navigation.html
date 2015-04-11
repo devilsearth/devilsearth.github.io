@@ -1,0 +1,9 @@
+<hr />
+{% for link in site.data.navigation %}
+    {% if link.url contains 'http' %}
+        {% assign domain = '' %}
+        {% else %}
+        {% assign domain = site.url %}
+    {% endif %}
+    <a href="{{ domain }}{{ link.url }}" class="author-social" {% if link.url contains 'http' %}target="_blank"{% endif %}><i class="fa fa-fw fa-angle-right"></i> {{ link.title }}</a>
+{% endfor %}

@@ -40,6 +40,7 @@
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
+    {% include _side-navigation.html %}
   </div>
   <div id="index">
     {% for post in site.posts %}  
@@ -62,6 +63,9 @@
       </article>
     {% endfor %}
   </div><!-- /#index -->
+  <div class="article-author-bottom">
+    {% include _author-bio.html %}
+  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

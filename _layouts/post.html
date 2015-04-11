@@ -26,8 +26,10 @@
   <div class="article-header">
 {% endif %}
 <div class="headline-wrap">
+
+          <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"></a>
     {% if page.link %}
-    <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+    <h1><a href="{{ page.link }}"><i class="fa fa-link"></i> {{ page.title }}</a></h1>
     {% else %}
     <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
     {% endif %}
@@ -40,6 +42,7 @@
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
+    {% include _side-navigation.html %}
   </div>
   <article class="post">
     <div class="article-wrap">
@@ -54,6 +57,9 @@
     <section id="disqus_thread"></section><!-- /#disqus_thread -->
   {% endif %}
   </article>
+  <div class="article-author-bottom">
+      {%include _author-bio.html %}
+  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

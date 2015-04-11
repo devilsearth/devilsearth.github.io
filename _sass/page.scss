@@ -415,9 +415,14 @@ $button-size: 1.5rem;
 /* Author sidebar */
 .article-author-side {
 	display: none;
+	a:hover {
+        @include box-shadow(none);
+    }
 	.bio-photo {
 		max-width: 110px;
-	/*	@include rounded(150px);*/
+		&.rounded {
+            @include rounded(150px);
+        }
 	}
 	@media #{$small} {
 		display: block;
@@ -457,6 +462,10 @@ $button-size: 1.5rem;
 
 /* Author module - mobile only */
 .article-author-bottom {
+	a:hover {
+        @include box-shadow(none);
+    }
+	margin-left: .8em;
 	margin-bottom: 1em;
 	@media #{$small} {
 		display: none;
@@ -465,7 +474,9 @@ $button-size: 1.5rem;
 		float: left;
 		margin-right: 25px;
 		max-width: 100px;
-		@include rounded(150px);
+		&.rounded {
+            @include rounded(150px);
+        }
 	}
 	.author-social {
 		display: inline-block;
@@ -646,6 +657,7 @@ $button-size: 1.5rem;
 	  color: $white;
 	  opacity: 0.8;
 	  &:hover {
+        @include box-shadow(none);
 	    opacity: 1;
 	  }
 	}
