@@ -1,5 +1,5 @@
 ---
 layout: post-index
-title: All Posts
+title: Archives
 excerpt: "A List of Posts"
 ---

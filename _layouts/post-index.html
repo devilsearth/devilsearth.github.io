@@ -22,18 +22,26 @@
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
+{% else %}
+  <div class="article-header">
 {% endif %}
+<div class="headline-wrap">
+    {% if page.link %}
+    <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+    {% else %}
+    <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+    {% endif %}
+</div><!--/ .headline-wrap -->
+{% if page.image.credit %}
+<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+{% endif %}
+</div><!-- /.image-wrap or .article-header -->
 
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h1>{{ page.title }}</h1>
     {% for post in site.posts %}  
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
