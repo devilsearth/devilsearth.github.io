@@ -4,6 +4,9 @@
 
 body {
 	background-color: $bodycolor;
+	background-repeat: no-repeat;
+	background-image: url(/images/texturel.png), url(/images/texturer.png);
+	background-position: top left, top right;
 	font-family: $base-font;
 	color: $text-color;
 }

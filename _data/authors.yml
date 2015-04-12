@@ -1,18 +1,19 @@
 # Authors
 
 danuta:
-  name: Danuta
+  name: The D
   email: danuta@devilsearth.com
-  bio: "Beethoven? Bach??"
+  bio: "Small bio text goes here"
   avatar: danuta.jpg
   twitter: dfordelirium
+  instagram: d33lirious
   google:
     plus:
 
 jouke:
-  name: Jouke
+  name: Awesan
   web: http://awesan.com
   email: jouke@devilsearth.com
-  bio: "Do I look Jerman to you??"
+  bio: "Programmer by day.. and by night really."
   avatar: jouke.jpg
   twitter: misterawesan
