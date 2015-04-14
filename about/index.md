@@ -5,9 +5,9 @@ tags: [about, devil's earth, devil, earth, info]
 modified: 2015-04-12T11:40:00:000000+02:00
 comments: true
 image:
-  feature: 
-  credit: 
-  creditlink: 
+  feature: about-head.jpg
+  credit: Axel Antas-Bergkvist
+  creditlink: https://unsplash.com/abl
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus lorem
