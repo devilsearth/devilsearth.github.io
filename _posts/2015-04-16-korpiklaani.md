@@ -3,7 +3,7 @@ category: album-preview
 layout: post
 title: "Upcoming: Noita by Korpiklaani"
 author: danuta
-excerpt: "The D takes a look at the upcoming album 'Noita' by Korpiklaani"
+excerpt: "The D likes the new single 'Noita' by Korpiklaani"
 tags: [album preview, metal, midsummer]
 image:
   feature: korpi.jpg
