@@ -5,6 +5,7 @@ title: "Endless Forms Most Beautiful"
 author: jouke
 excerpt: "The newest release by Finnish metal band Nightwish has a lot going for it."
 tags: [Nightwish, album review, Endless forms most beautiful, metal]
+comments: true
 ---
 
 The newest release by Finnish metal band **Nightwish** has a lot going for it.

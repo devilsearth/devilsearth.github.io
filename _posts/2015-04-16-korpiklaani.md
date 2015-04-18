@@ -5,6 +5,7 @@ title: "Upcoming: Noita by Korpiklaani"
 author: danuta
 excerpt: "The D likes the new single 'Lempo' by Korpiklaani"
 tags: [album preview, metal, midsummer]
+comments: true
 image:
   feature: korpi.jpg
   credit: Korpiklaani
